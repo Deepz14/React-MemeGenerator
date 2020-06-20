@@ -1,0 +1,33 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  font-family: "Sriracha", cursive;
+}
+.navbar {
+  background-color: sandybrown;
+  color: white;
+}
+.top-text,
+.btm-text {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: white;
+}
+.meme-container {
+  position: relative;
+}
+.top-text {
+  position: absolute;
+  left: 80px;
+  top: 5px;
+}
+.btm-text {
+  position: absolute;
+  bottom: 3px;
+  left: 80px;
+}
